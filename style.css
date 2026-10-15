@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     line-height: 1.4;
 }
 
-header{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,27 +18,120 @@ header{
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.05);
 }
 
-header .links{
+.navbar .links {
     display: flex;
     gap: 150px;
     font-weight: bold;
     align-items: center;
 }
 
-header .links a{
+.navbar .links a {
     text-decoration: none;
     font-size: 22px;
 }
 
-header .links .login-btn{
+.navbar .links .login-btn {
     background-color: #551a8b;
     color: white;
     padding: 5px 30px;
     border-radius: 3px;
 }
 
-header .links a:hover{
+.navbar .links a:hover {
     transform: scale(0.9);
     transition: all 0.5;
     text-decoration: underline;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 0px;
+    /* background-color: aqua; */
+}
+
+.hero-section .hero-image {}
+
+.hero-section .hero-content {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 50%;
+}
+
+.hero-section .hero-content .tag {
+    background-color: #149f39;
+    color: white;
+    padding: 10px 30px;
+
+}
+
+.hero-section .hero-content h1 {
+    font-size: 70px;
+    width: 60%;
+}
+
+.hero-section .hero-content p {
+    font-size: 20px;
+    width: 60%;
+}
+
+.hero-section .hero-content button {
+    background-color: #ffc066;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+}
+
+.hero-section .hero-content button:hover {
+    background-color: #f3a114;
+    border: 1px solid black;
+}
+
+.features {
+    /* background-color: #64c27d; */
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.feature {
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.feature .image img {
+    height: 90px;
+}
+
+.feature .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+    /* background-color: aqua; */
+}
+
+.feature .content h5 {
+    font-size: 23px;
+}
+
+.feature .content p {
+    font-size: 20px;
+}
+
+.divider {
+    border: 1px solid gray;
+    margin-bottom: 50px;
 }
