@@ -29,7 +29,7 @@ header {
 
 .navbar .links {
     display: flex;
-    gap: 150px;
+    gap: 120px;
     align-items: center;
 }
 
