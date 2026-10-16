@@ -4,77 +4,130 @@
 <head>
     <title>Restaurant Site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="logo">
-            <img src="images/logo.png" alt="logo">
-        </div>
-        <div class="links">
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#" class="login-btn">Login</a>
-        </div>
-    </div>
-    <!-- Hero Section -->
-    <div class="hero-section">
 
-        <div class="hero-image">
-            <img src="images/hero.png" alt="hero-image">
-        </div>
+    <header>
 
-        <div class="hero-content">
-            <div class="tag">50% OFF ALL Products</div>
-            <h1>Enjoy Your Delicious Food</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, voluptate corporis. Sit, perferendis
-                nesciunt! Neque ipsum.
-            </p>
-            <button>Explore Now</button>
-        </div>
-
-    </div>
-    <!-- Features -->
-    <div class="features">
-
-        <div class="feature">
-            <div class="image">
-                <img src="images/discount.png" alt="logo-image">
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
-            <div class="content">
-                <h5>Discount Voucher</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <a href="#" class="login-btn">Login</a>
             </div>
         </div>
+        <!-- Hero Section -->
+        <div class="hero-section" id="home">
 
-        <div class="feature">
-            <div class="image">
-                <img src="images/fruits.png" alt="logo-image">
+            <div class="hero-image">
+                <img src="images/hero.png" alt="hero-image">
             </div>
-            <div class="content">
-                <h5>Fresh Healthy Food</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+
+            <div class="hero-content">
+                <div class="tag">50% OFF ALL Products</div>
+                <h1>Enjoy Your Delicious Food</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, voluptate corporis. Sit, perferendis
+                    nesciunt! Neque ipsum.
+                </p>
+                <button>Explore Now</button>
             </div>
+
+        </div>
+        <!-- Features -->
+        <div class="features">
+
+            <div class="feature">
+                <div class="image">
+                    <img src="images/discount.png" alt="logo-image">
+                </div>
+                <div class="content">
+                    <h5>Discount Voucher</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="image">
+                    <img src="images/fruits.png" alt="logo-image">
+                </div>
+                <div class="content">
+                    <h5>Fresh Healthy Food</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="image">
+                    <img src="images/home.png" alt="logo-image">
+                </div>
+                <div class="content">
+                    <h5>Fast Home Delivery</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="feature">
-            <div class="image">
-                <img src="images/home.png" alt="logo-image">
-            </div>
-            <div class="content">
-                <h5>Fast Home Delivery</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
-            </div>
-        </div>
+        <div class="divider"></div>
 
-    </div>
+    </header>
 
-    <div class="divider"></div>
     <!-- Gallery -->
+    <div class="menu" id="menu">
+
+        <div class="tag">Our Menu</div>
+        <h1>Explore Our Menu</h1>
+        <img src="images/gallery.png" alt="Gallery">
+
+    </div>
 
     <!-- Footer -->
+    <div class="footer">
+        <div class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+
+        <div class="link-lists">
+            <h3>Main Links</h3>
+            <ul>
+                <li>Order Tracking</li>
+                <li>New Order</li>
+                <li>Contact Us</li>
+                <li>News & Blogs</li>
+            </ul>
+        </div>
+
+        <div class="link-lists">
+            <h3>Support</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Services</li>
+            </ul>
+        </div>
+
+        <div class="news-letter">
+            <h3>Join Our News Letter</h3>
+            <input type="text" placeholder="Enter Your Email Address" />
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+                <i class="fa-brands fa-instagram fa-2x"></i>
+                <i class="fa-brands fa-twitter fa-2x"></i>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
