@@ -152,7 +152,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    min-height: 100dvh;
+    min-height: 90dvh;
     width: 100%;
 }
 
