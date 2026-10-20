@@ -85,3 +85,24 @@ textarea {
         opacity: 1;
     }
 }
+
+@media all and (max-width: 500px){
+    .contact-us-container {
+        height: auto;
+        flex-direction: column;
+}
+
+.contact-us-container .image img{
+    margin-top: 60px;
+    width: 350px;
+}
+
+.contact-us-container .content, .contact-us-container .content input,
+textarea{
+    width: 90%;
+}
+
+.contact-us-container .content h1 {
+    font-size: 40px;
+}
+}

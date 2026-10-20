@@ -102,3 +102,28 @@ textarea {
         opacity: 1;
     }
 }
+
+
+@media all and (max-width: 500px) {
+    .about-us-box{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .story p, .about-us-container p{
+        width: auto;
+        padding: 0px 40px;
+    }
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-container .image{
+        width: auto;
+        padding: 40px;
+    }
+
+    .about-us-container .image img{
+        width: 100%;
+    }
+}
