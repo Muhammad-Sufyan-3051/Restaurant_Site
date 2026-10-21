@@ -223,3 +223,49 @@ header {
         opacity: 1;
     }
 }
+
+
+
+@media all and (max-width: 600px){
+    .footer{
+        flex-direction: column;
+        padding: 20px 60px;
+        gap: 20px;
+    }
+    .hero-section{
+        flex-direction: column;
+        margin: 100px 0px;
+        gap: 70px;
+        padding: 0px 40px;
+    }
+    .hero-section .hero-image{
+        width: 400px;
+    }
+    .hero-section .hero-image img{
+        width: 100%;
+    }
+    .hero-section .hero-content{
+        width: 100%;
+    }
+    .hero-section .hero-content h1{
+        width: 100%;
+        font-size: 40px;
+    }
+    .hero-section .hero-content p{
+        width: 100%;    
+    }
+    .features{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 40px;
+    }
+    .features .feature{
+        width: 100%;
+    }
+    .menu{
+        min-height: fit-content;
+    }
+    .menu img{
+        width: 100%;
+    }
+}

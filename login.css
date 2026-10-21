@@ -71,3 +71,13 @@
     text-align: center !important;
     margin-top: -10px !important;
 }
+
+
+@media all and (max-width: 600px){
+    .login-container .box{
+        width: 350px;
+    }
+    .login-container .box input{
+        width: 100%;
+    }
+}
