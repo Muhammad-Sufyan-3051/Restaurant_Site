@@ -239,7 +239,7 @@ header {
         padding: 0px 40px;
     }
     .hero-section .hero-image{
-        width: 400px;
+        width: auto;
     }
     .hero-section .hero-image img{
         width: 100%;
@@ -300,3 +300,49 @@ header {
         display: flex;
     }
 }
+
+
+
+
+
+
+
+/* ==========================================================================
+   Laptop Screen Configurations (700px to 1366px)
+   ========================================================================== */
+@media screen and (min-width: 700px) and (max-width: 1366px) {
+  /* 1. Ensure the navbar remains a flat row and fits tighter windows */
+  .navbar {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 4%; /* Reduced from desktop 8% to prevent edge squeezing */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* 2. Keep the hamburger icon hidden on laptops */
+  .humburger {
+    display: none !important;
+  }
+
+  /* 3. Pull links tighter together horizontally */
+  .navbar .links {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important; /* Narrower spacing so links don't drop down */
+  }
+
+  /* 4. Scale down font sizes so text stays on one line */
+  .navbar .links a {
+    font-size: 0.95rem !important;
+  }
+
+  /* 5. Scale down the Login button padding slightly */
+  .navbar .links a.login-btn {
+    padding: 8px 18px !important;
+    font-size: 0.95rem !important;
+  }
+}
+
